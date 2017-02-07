@@ -1,0 +1,308 @@
+body{}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin:0;
+    padding: 0;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+td {
+    text-align: center !important;
+}
+
+/*=======================================================**
+    ************** Header Section *********************
+** =======================================================*/
+.headersSection {
+    background: #20A19D;
+    overflow: hidden;
+}
+
+.headersSection h2{
+    color: #fff;
+    font-size: 20px;
+        display: inline-block;
+
+}
+
+.headerLeft{
+    background: #F3D00F;
+    padding: 10px 0px 10px 30px;
+}
+
+
+ul.barMenu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+}
+
+ul.barMenu li {
+    float: left;
+}
+
+ul.barMenu li a {
+    display: block;
+    padding: 12px 15px;
+    color: #fff;
+    transition: .4s;
+}
+
+ul.barMenu li a:hover{
+    background: #fff;
+    color: #20A19D;
+}
+
+/*=======================================================**
+    ************** content Section *********************
+** =======================================================*/
+.contentWrapper {
+    background: #20A19D;
+    overflow: hidden;
+}
+
+.userProfile img{
+    float: left;
+    width: 30px;
+    height: 30px;
+    background: #000;
+}
+
+.Content {
+    min-height: 92vh;
+    background: #ECECEC;
+    overflow: hidden;
+    padding: 0px 50px;
+}
+
+.userProfile {
+    padding: 10px 20px;
+    border-bottom: 1px solid #F3D00F;
+}
+
+.userProfile img {
+    float: left;
+    width: 35px;
+    height: 35px;
+    background: #000;
+    margin-right: 5px;
+    border-radius: 100%;
+    border: 1px solid #ff;
+    overflow:hidden;
+}
+
+.userProfile h2 {
+    font-size: 17px;
+    color: #fff;
+    line-height: 33px;
+}
+
+/* ---------- sidebar navigation ---------- */
+
+.sidebarNav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebarNav ul li{
+
+}
+
+.sidebarNav ul li a{
+    color: #fff;
+    font-size: 18px;
+     padding: 15px;
+     display: block;
+     overflow:hidden;  
+     transition: .5s; 
+}
+.sidebarNav ul li a:hover{
+    background: #F3D00F;
+}
+
+
+/*------- Dashboard Index -------------*/
+.dashboardTop {
+    display: block;
+    margin-top: 50px;
+}
+
+.singleDitem {
+    background-color: #00c0ef;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.iner,.icon{
+        padding: 10px;
+}
+.iner h2 {
+    font-size: 22px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.iner p {
+    font-size: 15px;
+}
+
+.singleDitem span{
+    position: relative;
+    text-align: center;
+    padding: 3px 0;
+    color: #fff;
+    color: rgba(255, 255, 255, 0.8);
+    display: block;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+.icon {
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    position: absolute;
+    top: -18px;
+    right: 9px;
+    z-index: 10;
+    font-size: 80px;
+    color: rgba(0, 0, 0, 0.15);
+}
+
+.singleDitem:hover .icon{
+    font-size: 85px;
+}
+
+
+.TotalcostBg {
+    background-color: rgba(97, 92, 168, 0.8) ;
+}
+
+
+.benifitBg {
+    background-color: rgba(28, 168, 221, 0.8);
+}
+
+.lostBg {
+    background-color: rgba(51, 184, 108, 0.8);
+}
+/*------- Content Heading -------------*/
+.contentHeading {
+    background: #20A19D;
+    color: #fff;
+    padding: 10px 0px;
+    text-align: center;
+    margin: 52px 0px 30px 0px;
+    border-radius: 4px;
+}
+
+.contentHeading h2{
+    font-size: 18px;
+}
+
+.contentHeading h2 {
+    font-size: 25px;
+}
+
+thead {
+    background: #F3D00F;
+    color: #fff;
+}
+
+
+td i{
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+i.fa.fa-trash {
+    background: #D73925;
+}
+
+i.fa.fa-edit {
+    background: #233241;
+}
+
+.add-on input {
+    border: 1px solid #20A19D;
+}
+
+button.btn.btn-default.form {
+    top: 42%;
+    position: absolute;
+}
+
+button.btn.btn-default.form {
+    background: #F3D00F;
+    border: 1px solid #20A19D;
+    color: #fff;
+    border-radius: 0px;
+}
+
+button.btn.btn-success.customeSubmit {
+    background: #20A19D;
+    border: none;
+    border-radius: 0px;
+    margin-top: 20px;
+}
+
+
+/*------ show report -----------*/
+.row.showReport {
+    background: #fff;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+
+
+/*----------------- login -----------*/
+.login{
+    margin:150px auto;
+}
+
+form.loginForm input {
+    width: 100%;
+    border-radius: 0;
+    border: 1px solid yellow;
+    margin-bottom: 10px;
+    height: 45px;
+}
+
+.loginsubmit {
+    background: #F3D00F;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.loginHeader {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.message {
+    color: #ff0000;
+    font-size: 20px;
+    text-align: center;
+    padding: 0px 0px 20px;
+    font-weight: bold;
+}
+
+/*.total {
+    text-align: right !important;
+}*/
+
